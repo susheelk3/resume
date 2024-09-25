@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: jost;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p,h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.sideLeft{
+    display: grid;
+    color: white;
+    background-color: #154c79;
+    padding: 15px 45px;
+}
+
+.profileImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profileImage img{
+    width: 200px;   
+    height: 200px;   
+    border-radius: 50%;
+}
+
+h3{
+    font-size: 35px;
+}
+
+.skillSection{
+    padding: 0px 0px 10px 0px;
+}
+
+.skillTitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skillTitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skills{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.skills p{
+    background-color: lightblue;
+    margin: 11px 0px 0px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+} 
+
+.educationSection{
+    margin-top: 30px;
+}
+
+.educationTitle,
+.languageTitle,
+.interestTitle{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.languageSection{
+    margin-top: 30px;
+}
+
+.languages p{
+    margin-bottom: 10px;
+}
+
+.interestSection{
+    margin-top: 30px;
+}
+
+.interest p{
+    margin-bottom: 10px;
+}
+
+/* Right Side */
+
+.rightSide{
+    width: 60%;
+}
+
+.userName{
+    padding: 30px;
+    text-align: justify;
+}
+
+.description{
+    margin-top: 20px;
+}
+
+.contactSection{
+    margin: 10px 30px;
+    padding: 30px;
+    background-color: #154c79;
+    border-radius: 20px;
+}
+
+
+
+
+
